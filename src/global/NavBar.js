@@ -11,7 +11,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className=" space-x-4" style={{display:'flex',gap:'12px'}}>
-        <Link to={"/create-blog"} className="navBtn">
+        <Link to={"/"} className="navBtn">
           <p>Home</p>
         </Link>
         <Link to={"/create-blog"} className="navBtn">
