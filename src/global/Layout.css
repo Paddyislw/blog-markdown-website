@@ -1,0 +1,67 @@
+.navBarContainer {
+  display: flex;
+  color: #ffffff;
+  font-weight: 600;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  padding: 10px 7.5%;
+}
+
+.navBtn{
+    text-decoration: none;
+    color: white;
+}
+
+.footerContainer{
+  display: flex; 
+  color: #ffffff; 
+  font-weight: 600; 
+  justify-content: space-between; 
+  background: #000000;
+  padding: 3.5rem 7.5%
+}
+
+.footerRightContainer{
+  display: flex;
+  gap: 50px;
+}
+
+.footerItem{
+  font-size: 16px;
+}
+
+/* @media screen and (max-width: 920px){}
+@media screen and (max-width: 730px){}
+@media screen and (max-width: 560px){} */
+
+@media screen and (max-width: 920px){
+  .footerRightContainer{
+    gap: 40px;
+  }
+  .footerContainer,.navBarContainer{
+    padding: 10px 6%;
+  }
+ .footerContainer, .footerRightContainer{
+  flex-wrap: wrap;
+ }
+ 
+}
+@media screen and (max-width: 730px){
+  .footerRightContainer ,.navBarContainer{
+    gap: 25px;
+  }
+  .footerContainer ,  .navBarContainer{
+    padding: 10px 5%;
+  }
+  
+}
+@media screen and (max-width: 560px){
+  .footerRightContainer, .navBarContainer{
+    gap: 10px;
+  }
+  .footerContainer ,  .navBarContainer{
+    padding: 10px 3%;
+  }
+  
+}
